@@ -1,0 +1,73 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: verdana;
+}
+.container{
+	position: relative;
+	width: 99%;
+	height:650px;
+	top:0px;
+	left: 3px;
+	border:2px solid #3d0707;
+}
+.header{
+	height: 80px;
+	width: 100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #3d0707;
+	text-align: center;
+}
+
+.header h1{
+	font-family: verdana;
+	color: white;
+	font-size: 40px;
+	font-weight: lighter;
+	position: relative;
+	vertical-align: middle;
+
+}
+
+.description {
+	position: relative;
+	top:15%;
+	width: 100%;
+	font-family: verdana;
+	color:black;
+}
+
+.pics-container{
+	position: relative;
+	top:10px;
+	height: 300px;
+	width: 350px;
+	background-color: #aaa;
+	vertical-align: middle;
+	background-color: #fff;
+	margin: 10% 36%;
+}
+.pics td{
+	color:#333;
+}
+
+.pics td {
+	margin:5px;
+	padding: 3px;
+}
+.pics td img{
+	height:200px;
+	width:150px;
+}
+
+.images{
+
+	border: 1px solid;
+	border-color: black;
+}
+
