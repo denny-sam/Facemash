@@ -28,8 +28,7 @@
 		$updatequery=mysqli_query($dbc,"update facemashed set rating=$winner_rating where id=$winner") or die(mysqli_error($dbc));
 		$updatequery=mysqli_query($dbc,"update facemashed set rating=$loser_rating where id=$loser") or die(mysqli_error($dbc));
 	}
-		
-		//This variable tells the total number of pics. Update it.
+
 		$max_ppl=80;
 
 		$random1= rand(1,$max_ppl);
